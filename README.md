@@ -1,7 +1,5 @@
 # Aerobic biodegradation prediction with XGBoost Classifier
 
-|PyPI Version| |Build Status| |Documentation| |Code Coverage| |Downloads| |Binder|
-
 A machine learning model for the aerobic biodegradation prediction (classification) based on XGBoost as the major ML algorithm and MACCS fingerprint as the chemical representation. The repository contains all the related datasets, codes, and model files.
 
 An online predictor was published on [**Aropha AI**](https://www.ai.aropha.com/) at https://www.ai.aropha.com/aerobic-biodegradation/classification/about.html
