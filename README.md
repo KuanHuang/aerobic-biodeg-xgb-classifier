@@ -30,7 +30,8 @@ Data balancing was performance as the two classes were not well balanced. Bayesi
 
 ## Use the online predictor on Aropha AI
 Address: https://www.ai.aropha.com/aerobic-biodegradation/classification/about.html
-<img src="/doc/presentation_pysirc.gif?raw=true" align="center">
+
+<img src="/doc/AB_XGB_Classifier.gif?raw=true" align="center">
 
 ## Download files to run locally
 In addition to using the online predictor, we also encourage you to try the model files locally with your data to have command-line controls over the prediction.
@@ -64,4 +65,7 @@ pip install pickle-mixin
 ```
 
 ### Download the model file and follow the JupyterNotebook
-You can simply download the model file in the `Model` and follow the JupyterNotebook in the `Example` folder to run the models for your predictions. 
+You can simply download the model file in the `models` and follow the JupyterNotebook in the `jupyter-notebook` folder to run the models for your predictions. 
+
+
+<img src="/doc/AB_XGB_Classifier_Jupyter.png?raw=true" align="center">
