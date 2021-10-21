@@ -21,6 +21,7 @@ MACCS fingerprints
 Data balancing was performance as the two classes were not well balanced. Bayesian optimization was conducted for tuning the model hyperparameters. Chemical similarity calculation was performed using the fingerprint similarity based on Tanimoto index to determine the model applicability domain.
 
 ## Use the online predictor on Aropha AI
+Address: https://www.ai.aropha.com/aerobic-biodegradation/classification/about.html
 <img src="/doc/presentation_pysirc.gif?raw=true" align="center">
 
 ## Download files to run locally
