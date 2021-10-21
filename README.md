@@ -20,6 +20,14 @@ MACCS fingerprints
 ### Other notes:
 Data balancing was performance as the two classes were not well balanced. Bayesian optimization was conducted for tuning the model hyperparameters. Chemical similarity calculation was performed using the fingerprint similarity based on Tanimoto index to determine the model applicability domain.
 
+## Explanation of each folder
+<ul>
+<li><b>example-smiles-files:</b> Files containing example SMILES strings that you can directly use for prediction.</li>
+<li><b>jupyter-notebook:</b> An example JupyterNotebook that can guide you through the library import, data preparation, prediction, and result saving.</li>
+<li><b>model-data:</b> The original data we used for building the model.</li>
+<li><b>models:</b> The model XGBoost model file you can directly use once loaded (model = pickle.load(open(model, 'rb'))).</li>
+</ul>
+
 ## Use the online predictor on Aropha AI
 Address: https://www.ai.aropha.com/aerobic-biodegradation/classification/about.html
 <img src="/doc/presentation_pysirc.gif?raw=true" align="center">
