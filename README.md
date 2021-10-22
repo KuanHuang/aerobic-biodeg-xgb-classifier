@@ -6,24 +6,24 @@ An online predictor was published on [**Aropha AI**](https://www.ai.aropha.com/)
 
 
 ## Basic information
-### Dataset:
+### Dataset
 The classification model was based on more than 3,000 data points with SMILES strings as the inputs and the class (0 or 1) as the output. Only ready biodegradation data with time of 28 and principles of closed bottle test, closed respirometer, and CO2 evolution were considered.
 
-### ML algorithms:
+### ML algorithms
 A total of 14 ML algorithms were examined to find the best one, including K nearest neighbors, Linear support vector machine (SVM), Radial basis function SVM (RBF SVM), Gaussian process, Neural net multi-layer perceptron classifier, Decision tree, Random forest, Bagging, Adaptive boosting, Gradient boosting, XGBoost, Extra tree, Gaussian Naive Bayes, Quadratic discriminant analysis.
 
 XGBoost was found to be the best one.
 
-### Chemical representation:
+### Chemical representation
 MACCS fingerprints
 
-### Other notes:
+### Other notes
 Data balancing was performance as the two classes were not well balanced. Bayesian optimization was conducted for tuning the model hyperparameters. Chemical similarity calculation was performed using the fingerprint similarity based on Tanimoto index to determine the model applicability domain.
 
 ## Explanation of each folder
 <ul>
 <li><b>example-smiles-files:</b> Files containing example SMILES strings that you can directly use for prediction.</li>
-<li><b>jupyter-notebook:</b> An example JupyterNotebook that can guide you through the library import, data preparation, prediction, and result saving.</li>
+<li><b>example:</b> An example JupyterNotebook that can guide you through the library import, data preparation, prediction, and result saving.</li>
 <li><b>model-data:</b> The original data we used for building the model.</li>
 <li><b>models:</b> The model XGBoost model file you can directly use once loaded (model = pickle.load(open(model, 'rb'))).</li>
 </ul>
@@ -65,7 +65,7 @@ pip install pickle-mixin
 ```
 
 ### Download the model file and follow the JupyterNotebook
-You can simply download the model file in the `models` and follow the JupyterNotebook in the `jupyter-notebook` folder to run the models for your predictions. 
+You can simply download the model file in the `models` and follow the JupyterNotebook in the `example` folder to run the models for your predictions. 
 
 
 <img src="/doc/AB_XGB_Classifier_Jupyter.png?raw=true" align="center">
